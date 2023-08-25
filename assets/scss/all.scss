@@ -1,0 +1,23 @@
+@import './utils/variables';
+@import './base/reset';
+
+@import './utils/mixins';
+
+@import './base/base';
+@import './base/font';
+@import './themes/theme';
+
+@import './utils/helpers';
+@import './utils/functions';
+
+@import './components/scrollbar';
+@import './components/button';
+
+@import './layout/navbar';
+@import './layout/header';
+@import './layout/footer';
+
+
+@import './pages/index.scss';
+@import './pages/store.scss';
+@import './pages/faq.scss';
